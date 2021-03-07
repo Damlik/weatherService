@@ -1,5 +1,5 @@
-<div class="wrapper_weatherList" *ngIf="weathersList">
-  <div class="weatherList_item" *ngFor="let cityWeather of weathersList">
+<div class="wrapper_weatherList" *ngIf="cityWeatherList">
+  <div class="weatherList_item" *ngFor="let cityWeather of cityWeatherList">
     <div class="cityName">
       <span>{{cityWeather.name}}</span>
       <span>...</span>

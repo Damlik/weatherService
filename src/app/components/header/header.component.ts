@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from "@angular/router";
 
 @Component({
@@ -6,7 +6,7 @@ import { Router } from "@angular/router";
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
   constructor(private router: Router) { }
 
@@ -28,9 +28,6 @@ export class HeaderComponent implements OnInit {
       name: "Deutschland"
     }
   ];
-
-  ngOnInit(): void {
-  }
 
   navigateTo(event) {
     this.router.navigate([event.target.value]);

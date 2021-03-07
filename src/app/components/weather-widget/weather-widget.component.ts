@@ -12,10 +12,10 @@ import { Subject } from "rxjs";
   styleUrls: ['./weather-widget.component.scss']
 })
 export class WeatherWidgetComponent implements OnInit {
-  public countryCityList: Subject<cityModel> = new Subject();
+  public currentCountryCityList: Subject<cityModel> = new Subject();
   public currentCountryCode: string;
   public currentCountry: string;
-  public weathersList: Array<any>;
+  public cityWeatherList: Array<any>;
 
   constructor(private router: ActivatedRoute,
               private weatherService: WeatherService) { }
@@ -31,21 +31,21 @@ export class WeatherWidgetComponent implements OnInit {
   private getCountryCityList(): void {
     for (let city of cityList) {
       if(city.country === this.currentCountryCode) {
-        this.countryCityList.next(city);
+        this.currentCountryCityList.next(city);
       }
     }
   }
 
   ngOnInit(): void {
-    this.countryCityList.subscribe((data) => {
+    this.currentCountryCityList.subscribe((data) => {
       let subscribe = this.weatherService.getWeather(data.name).subscribe((data) => {
-        this.weathersList.push(data);
+        this.cityWeatherList.push(data);
         subscribe.unsubscribe();
       });
     });
 
     this.router.params.subscribe(( params:Params ) => {
-      this.weathersList = [];
+      this.cityWeatherList = [];
       this.currentCountry = params.country;
       this.currentCountryCode = this.getCurrentCountryCode();
       this.getCountryCityList();
