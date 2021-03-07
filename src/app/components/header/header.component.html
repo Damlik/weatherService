@@ -1,0 +1,14 @@
+<div class="navbar">
+  <div class="logo">Logo</div>
+  <div class="navbar_menu">
+    <div>Some Link 1</div>
+    <div>Some Link 2</div>
+    <div>Some Link 3</div>
+  </div>
+  <div>Some Link 3</div>
+</div>
+<div class="cityChoice">
+  <select (change)="navigateTo($event)">
+    <option *ngFor="let value of menu" value="{{value.value}}">{{value.name}}</option>
+  </select>
+</div>

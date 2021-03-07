@@ -1,0 +1,152 @@
+[
+  {
+    "id": 6424601,
+    "name": "Montluel",
+    "state": "",
+    "country": "FR",
+    "coord": {
+      "lon": 5.05,
+      "lat": 45.849998
+    }
+  },
+  {
+    "id": 6440581,
+    "name": "Saint-Abit",
+    "state": "",
+    "country": "FR",
+    "coord": {
+      "lon": -0.3,
+      "lat": 43.200001
+    }
+  },
+  {
+    "id": 6440637,
+    "name": "Tarsacq",
+    "state": "",
+    "country": "FR",
+    "coord": {
+      "lon": -0.53333,
+      "lat": 43.349998
+    }
+  },
+  {
+    "id": 6455259,
+    "name": "Paris",
+    "state": "",
+    "country": "FR",
+    "coord": {
+      "lon": 2.35236,
+      "lat": 48.856461
+    }
+  },
+  {
+    "id": 524894,
+    "name": "Moscow",
+    "state": "",
+    "country": "RU",
+    "coord": {
+      "lon": 37.606667,
+      "lat": 55.761665
+    }
+  },
+  {
+    "id": 498817,
+    "name": "Saint Petersburg",
+    "state": "",
+    "country": "RU",
+    "coord": {
+      "lon": 30.264168,
+      "lat": 59.894444
+    }
+  },
+  {
+    "id": 1486209,
+    "name": "Yekaterinburg",
+    "state": "",
+    "country": "RU",
+    "coord": {
+      "lon": 60.612499,
+      "lat": 56.857498
+    }
+  },
+  {
+    "id": 5128581,
+    "name": "New York City",
+    "state": "NY",
+    "country": "US",
+    "coord": {
+      "lon": -74.005966,
+      "lat": 40.714272
+    }
+  },
+  {
+    "id": 5368361,
+    "name": "Los Angeles",
+    "state": "CA",
+    "country": "US",
+    "coord": {
+      "lon": -118.243683,
+      "lat": 34.052231
+    }
+  },
+  {
+    "id": 5549222,
+    "name": "Washington",
+    "state": "UT",
+    "country": "US",
+    "coord": {
+      "lon": -113.508293,
+      "lat": 37.130539
+    }
+  },
+  {
+    "id": 4887398,
+    "name": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "coord": {
+      "lon": -87.650047,
+      "lat": 41.850029
+    }
+  },
+  {
+    "id": 2950158,
+    "name": "Berlin",
+    "state": "",
+    "country": "DE",
+    "coord": {
+      "lon": 10.45,
+      "lat": 54.033329
+    }
+  },
+  {
+    "id": 2886242,
+    "name": "Köln",
+    "state": "",
+    "country": "DE",
+    "coord": {
+      "lon": 6.95,
+      "lat": 50.933331
+    }
+  },
+  {
+    "id": 2934246,
+    "name": "Düsseldorf",
+    "state": "",
+    "country": "DE",
+    "coord": {
+      "lon": 6.77616,
+      "lat": 51.221722
+    }
+  },
+  {
+    "id": 2911298,
+    "name": "Hamburg",
+    "state": "",
+    "country": "DE",
+    "coord": {
+      "lon": 10.0,
+      "lat": 53.549999
+    }
+  }
+]

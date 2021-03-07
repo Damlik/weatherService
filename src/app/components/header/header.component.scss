@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #217094;
+  display: grid;
+  align-items: center;
+  grid-gap: 24px;
+  height: 80px;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  color: #fff;
+}
+
+.navbar > .logo {
+  font-size: 40px;
+}
+
+.navbar_menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.cityChoice {
+  display: grid;
+  height: 35px;
+  justify-items: center;
+  background-color: #c4c4c4;
+}
+
+.cityChoice > select {
+  width: 250px;
+  height: 20px;
+  align-self: center;
+}

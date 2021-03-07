@@ -1,0 +1,23 @@
+<div class="wrapper_weatherList" *ngIf="weathersList">
+  <div class="weatherList_item" *ngFor="let cityWeather of weathersList">
+    <div class="cityName">
+      <span>{{cityWeather.name}}</span>
+      <span>...</span>
+    </div>
+    <div class="temp">{{cityWeather.main.temp}}</div>
+    <div class="special">
+      <div>
+        <span>Pressure</span>
+        <span>{{cityWeather.main.pressure}}</span>
+      </div>
+      <div>
+        <span>Wind</span>
+        <span>{{cityWeather.wind.speed | windMs}}</span>
+      </div>
+      <div>
+        <span>Humidity</span>
+        <span>{{cityWeather.main.humidity}}%</span>
+      </div>
+    </div>
+  </div>
+</div>
